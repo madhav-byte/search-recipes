@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Recipe from "./Recipe";
 import "./App.css";
+import FetchReddit from "./FetchReddit";
 
 function App() {
   const App_Id = "5e6cd3a8";
@@ -59,6 +60,7 @@ function App() {
       ))}
        </div>
     </div>
+  
   );
 }
 
